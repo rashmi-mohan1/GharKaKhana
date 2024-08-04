@@ -1,0 +1,11 @@
+import front1 from "../assets/front1.png";
+
+const Hero = () => {
+  return (
+    <div>
+      <img src={front1} className="w-full max-h-[600px] object-cover" />
+    </div>
+  );
+};
+
+export default Hero;
